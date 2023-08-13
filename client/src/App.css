@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  height: 110%;
+  min-height: calc(100vh - 60px);
+}
+
+.footer {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.formReview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.inputReview,
+.buttonReview {
+  width: 88%;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding: 10px;
+  font-size: 40;
+  border-radius: 5px;
+}
+
+.buttonReview {
+  width: 8%;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #5dc269;
+  color: #000000;
+  font-size: 28;
+  margin: 2%;
+}
+
+.basketButtonsInList {
+  text-align: center;
+  font-size: 25px;
+  padding: 5% 20%;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.basketButton {
+  max-width: 100%;
+  text-align: center;
+  font-size: 28;
+  margin: 2%;
+}
+
+.blocListReview {
+  height: 80%;
+}
+
+.listReview {
+  max-width: 100%;
+  margin: 8px auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+table,
+th,
+td {
+  margin: 25px;
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 5px;
+  text-align: left;
+}

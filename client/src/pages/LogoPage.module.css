@@ -1,0 +1,53 @@
+.deviceBody {
+  margin: 1% 5% 0% 10%;
+  width: 85%;
+}
+
+.deviceName {
+  text-align: center;
+  font-size: 18;
+  color: #2238da;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.deviceBlok {
+  width: 100%;
+  display: flex;
+}
+
+.infoDevice {
+  max-width: 100%;
+  margin: 8px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.listParam {
+  max-width: 100%;
+  margin: 8px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.deviceImage {
+  margin-right: 20px;
+  border-radius: 15px;
+  width: 50%;
+  min-width: 300px;
+  height: 50%;
+  min-height: 350px;
+}
+
+.BuyBasketBlok {
+  display: flex;
+}
+
+.buttonBuy {
+  margin: 0 10px 0 0;
+  width: 70%;
+  height: 50px;
+  background-color: #3cbf1e;
+}

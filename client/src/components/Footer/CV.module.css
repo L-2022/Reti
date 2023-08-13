@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Noto+Sans+Display:ital,wght@0,400;0,500;1,400&family=Noto+Serif+Display:ital,wght@0,400;0,500;1,200;1,300;1,500&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,500;1,700&family=Russo+One&family=Tinos:ital,wght@0,400;1,700&display=swap");
+/* font-family: 'Lato', sans-serif;
+font-family: 'Noto Sans Display', sans-serif;
+font-family: 'Noto Serif Display', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Russo One', sans-serif;
+font-family: 'Tinos', serif; */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.window {
+  margin: 2% 10% 2% 15%;
+}
+
+.content {  
+  display: flex;
+  font-family: "Lato", sans-serif;
+}
+
+.header {
+  position: absolute;
+  text-align: center;
+  margin-top: 75px;  
+  width: 75%;
+  height: 85px;
+  background-color: rgb(25, 156, 250);
+}
+
+.contentLeft {
+  padding: 150px 0px 0px 0px;
+  width: 30%;
+  background-color: rgb(34, 40, 52);
+}
+
+.blocLeft {
+  padding: 25px 25px 25px 25px;
+  text-align: left;
+  color: rgb(223, 229, 240);
+}
+.blocLeft > h4 {
+  color: rgb(95, 95, 225);
+}
+
+.blocLeft > a {
+  color: rgb(211, 211, 215);
+}
+.mainContent {
+  min-width: 50%;
+  height: 75%;
+}
+
+.contentRight {
+  padding: 150px 0px 0px 10px;
+  width: 70%;
+  background-color: rgb(223, 229, 240);
+}
+
+.blocRight {
+  text-align: justify;
+  padding: 25px 25px 25px 25px;
+  color: #000000;
+}
+.blocRight > h4 {
+  font-family: "Dancing Script";
+  color: rgb(61, 61, 208);
+}
+.blocRight > h5 {
+  font-family: "Dancing Script";
+  color: rgb(87, 87, 224);
+}
+.blocRight > h6 {
+  font-family: "Dancing Script";
+  color: rgb(15, 15, 54);
+}

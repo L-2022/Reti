@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.main {
+  height: 25%;
+  width: 25%;
+}
+.centre {
+  margin-top: 25px;
+  height: 100%;
+  width: 60%;
+}
+.table {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}

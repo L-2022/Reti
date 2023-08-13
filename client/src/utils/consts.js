@@ -1,0 +1,7 @@
+export const ADD_LOGO_ROUTE = '/AddLogo'
+export const LOGIN_ROUTE = '/login'
+export const REGISTRATION_ROUTE = '/registration'
+export const SHOP_ROUTE = '/'
+export const LOGO_ROUTE = '/logo'
+export const USER_PROFILE = '/profile'
+export const myCV = '/cv'
