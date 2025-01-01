@@ -10,9 +10,6 @@ const FuterBar = () => {
         <h5>Features</h5>
         <ul class="list-unstyled text-small">
           <li>
-            <a class="text-muted" href="/cv">
-              My CV
-            </a>
           </li>
         </ul>
       </div>
@@ -20,9 +17,6 @@ const FuterBar = () => {
         <h5>Resources</h5>
         <ul class="list-unstyled text-small">
           <li>
-            <a class="text-muted" href="#">
-              Resource
-            </a>
           </li>
         </ul>
       </div>

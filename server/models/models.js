@@ -55,7 +55,6 @@ const Logo = sequelize.define("logo", {
   address: { type: DataTypes.STRING },
   img: { type: DataTypes.STRING, allowNull: false },
   description: { type: DataTypes.TEXT },
-  
 });
 
 const ListRatings = sequelize.define("list_ratings", {
